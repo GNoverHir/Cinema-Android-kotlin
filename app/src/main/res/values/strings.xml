@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Cinema</string>
+    <string name="subject">Assunto</string>
+    <string name="message">Mensagem</string>
+    <string name="submit">Enviar</string>
+    <string name="menu">Menu\n</string>
+    <string name="streetItaquera">Av. José Pinheiro Borges, 390</string>
+    <string name="cinepolis">CINÉPOLIS ITAQUERA</string>
+</resources>
