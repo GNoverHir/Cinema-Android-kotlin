@@ -7,4 +7,10 @@
     <string name="streetItaquera">Av. José Pinheiro Borges, 390</string>
     <string name="cinepolis">CINÉPOLIS ITAQUERA</string>
     <string name="nelson">Nelson.</string>
+    <string-array name="locales">
+        <item>Portuguese</item>
+        <item>English</item>
+        <item>Spanish</item>
+
+    </string-array>
 </resources>

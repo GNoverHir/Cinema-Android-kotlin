@@ -1,6 +1,10 @@
 package com.example.cinema
 
+import android.app.LocaleManager
 import android.os.Bundle
+import android.widget.AdapterView.OnItemSelectedListener
+import android.widget.ArrayAdapter
+import android.widget.Spinner
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -16,5 +20,14 @@ class PreferencesActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+        val locales = listOf("pt-BR", "en", "sp")
+        val spinner = findViewById<Spinner>(R.id.spinner)
+        val localeManager = getSystemService(LocaleManager::class.java)
+
+
+        spinner.setSelection(1)
+
+
     }
 }
